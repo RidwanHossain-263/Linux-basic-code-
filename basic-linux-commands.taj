@@ -1,0 +1,111 @@
+# Create a new empty HTML file
+touch index.html
+
+# Create a new file named taj.txt
+touch taj.txt
+
+# Display the current date and time
+date
+
+# Display date/time in a specific format
+real -h
+
+# Display date/time with another option in juliyan
+real -j
+
+# Display date and time
+real
+
+# Display the current date and time in UTC
+date -u
+
+# Display the current date and time in Universal Time
+date --universal
+
+
+# Sort the contents of taj.txt
+sort taj.txt
+
+# Sort the contents and remove duplicate lines
+sort -u taj.txt
+
+# Sort the contents in reverse order
+sort -r taj.txt
+
+# Sort the contents numerically
+sort -n taj.txt
+
+# Sort numerically and remove duplicate lines 
+# j line ta sobcheya besi bar ache oital just akber show korba 
+sort -nu taj.txt
+
+
+# Display the Linux kernel release/version
+uname -r
+
+# Display CPU architecture and processor information
+lscpu
+
+# Display RAM and memory usage in human-readable format
+
+free -h
+
+# Display information about running processes
+
+ps aux
+
+# Display running processes and system resource usage in real time
+
+top
+
+# Trace system calls and signals made by the ls command
+strace ls
+
+--------------------------------------------------------------------------------------
+
+# Write "OS" into lab.txt
+
+echo "OS" > lab.txt
+
+# Append "Md Ridwan Hossain Taj" to the end of lab.txt
+echo "Md Ridwan Hossain Ta" >> lab.txt
+
+Topic 1: Basic Shell Script & Variables
+📄 01_hello_and_variables.sh
+#!/bin/bash
+
+# 1. Basic Output
+echo "Hello User!"
+echo "Files in current directory:"
+ls
+
+echo "-----------------------------------"
+
+# 2. System Variables
+echo "Current User: $USER"
+echo "System PATH: $PATH"
+
+echo "-----------------------------------"
+
+# 3. User Defined Variables
+myname="Ridwan"
+myos="Linux"
+text=1+2
+
+echo "Your name: $myname"
+echo "Your OS: $myos"
+echo "Output of text variable: $text"
+
+echo "-----------------------------------"
+
+# 4. Quotes Handling
+myvar="Hello"
+echo "Double Quotes: $myvar"
+echo 'Single Quotes: $myvar'
+echo "Escaped Symbol: \$myvar"
+
+
+# Display the system interrupt information
+cat /proc/interrupts
+
+
