@@ -1,0 +1,24 @@
+Question: Integer arithmetic (jog, biyog, gun, bhag) 
+ebong bc command use kore floating-point (decimal) 
+calculation korar script likhun.
+
+
+
+
+
+
+#!/bin/bash
+# Integer Arithmetic
+a=20
+b=10
+sum=$((a + b))
+sub=$((a - b))
+mul=$((a * b))
+div=$((a / b))
+echo "Results: Sum=$sum, Subtraction=$sub, Multiplication=$mul, Division=$div"
+
+# Floating Point Arithmetic using bc
+a=20.5
+b=8.3
+sum_float=$(echo "$a + $b" | bc)
+echo "Summation = $sum_float"
