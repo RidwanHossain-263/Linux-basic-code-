@@ -1,0 +1,5 @@
+# Floating Point Arithmetic using bc
+a=20.5
+b=8.3
+sum_float=$(echo "$a + $b" | bc)
+echo "Summation = $sum_float"
