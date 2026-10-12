@@ -1,0 +1,25 @@
+mkdir Ifelse
+cd Ifelse
+gedit file1
+
+
+
+
+#!/bin/bash
+echo " enter a number "
+read a
+echo " enter another number "
+read b
+if [ $a is -gt $b ] ; then
+echo " $a is greater then $b "
+elif [ $a -lt $b ] ; then
+echo " $a is less then $b"
+else
+echo " $a is equal ===== $b"
+fi
+
+
+
+
+chmod +x file1
+./file1
