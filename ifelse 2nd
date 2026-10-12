@@ -1,0 +1,13 @@
+mkdir Ifelse
+cd Ifelse
+gedit file2
+#!/bin/bash
+marks=50
+passing=50
+if [ "$marks" -ge "$passing" ]; then
+echo "Passed."
+else
+echo "Failed."
+fi
+chmod +x file2
+./file2
